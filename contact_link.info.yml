@@ -1,4 +1,4 @@
-name: 'Display Suite Contact Link'
+name: 'Personal Contact Form Link'
 type: module
 description: 'Provides a Display Suite Field for a link to the personal contact form.'
 package: 'Display Suite'

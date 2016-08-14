@@ -14,7 +14,8 @@
     "drupal/layout_plugin": "^1.0.0-alpha22"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.8"
+    "phpunit/phpunit": "~4.8",
+    "satooshi/php-coveralls": "^1.0"
   },
   "repositories": [
     {

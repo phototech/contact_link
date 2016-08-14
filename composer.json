@@ -1,0 +1,25 @@
+{
+  "name": "drupal/contact_link",
+  "description": "Customizable link from User Profiles to Personal Contact Forms.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "David Barratt",
+      "email": "david@davidwbarratt.com"
+    }
+  ],
+  "require": {
+    "drupal/ds": "^2.0.0",
+    "drupal/layout_plugin": "^1.0.0-alpha22"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ]
+}

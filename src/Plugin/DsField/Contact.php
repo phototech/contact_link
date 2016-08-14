@@ -26,8 +26,6 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  */
 class Contact extends Link implements ContainerFactoryPluginInterface {
 
-  use StringTranslationTrait;
-
   /**
    * Module Handler.
    *
@@ -43,9 +41,9 @@ class Contact extends Link implements ContainerFactoryPluginInterface {
                               $plugin_definition,
                               ModuleHandlerInterface $module_handler,
                               TranslationInterface $string_translation) {
-    parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->moduleHandler = $module_handler;
     $this->stringTranslation = $string_translation;
+    return parent::__construct($configuration, $plugin_id, $plugin_definition);
   }
 
   /**
